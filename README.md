@@ -8,5 +8,5 @@ Create account and explore medIconnect !
 
 link: https://mediconnect.000webhostapp.com/mediconnect/index.php
 
-![Alt text](img/med_hp.jpg)
-![Alt text](img/med_ac.jpg)
+![Alt text](images/med_hp.jpg)
+![Alt text](images/med_ac.jpg)
