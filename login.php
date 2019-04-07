@@ -6,7 +6,7 @@ $username = "id2718577_mediconnect_admin";
 $password = "mediconnect@123";
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password,"authenticate");
+$conn = mysqli_connect($servername, $username, $password,"id2718577_mediconnect_database");
 
 // Check connection
 if ($conn->connect_error) {

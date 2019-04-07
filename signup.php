@@ -36,12 +36,12 @@ else{
 
 $sql = "INSERT INTO authenticate_user(name,email,password,status,registerdate,lastlogin,posts,u_image)
 VALUES('$name','$email','$password','$status','$date','$date','$posts','$u_image')";
+
 $runquery1=mysqli_query($conn, $sql);
 if ($runquery1) {
-    echo "New record created successfully";
      header("Location:myProfile_m/index.php");
 } else {
-    echo "Failed!!1";
+    echo "Failed!!";
 }
 
 // echo "Registration Successful!!!!!!!!!!1";
